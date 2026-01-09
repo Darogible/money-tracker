@@ -1,0 +1,1 @@
+npconsole.log('Happy developing ✨')

@@ -1,0 +1,102 @@
+
+.page {
+    width: min(720px, 100vw);
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.total {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.navBtn {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.navBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.editBtn {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    justify-self: center;
+}
+
+
+
+
+/* protection against horizontal scrolling within the page */
+.page {
+    overflow-x: hidden;
+}
+
+
+.donutWrap {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    min-width: 0;
+    min-height: 260px;
+}
+
+
+.donutWrap svg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+

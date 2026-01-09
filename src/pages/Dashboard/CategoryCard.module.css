@@ -1,0 +1,70 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    background: #fff;
+
+    cursor: pointer;
+    min-width: 0; /* Important for grid layouts */
+}
+
+/* Icon */
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    flex: 0 0 48px;
+}
+
+/* Text content */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.name {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.amount {
+    font-size: 13px;
+    color: #666;
+    white-space: nowrap;
+}
+
+/* Action buttons */
+.actions {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.iconBtn {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+    padding: 6px 8px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+/* Subtle hover effect */
+.card:hover {
+    background: #fafafa;
+}
