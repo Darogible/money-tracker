@@ -1,12 +1,48 @@
-# React + Vite
+# Money Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a learning web project for personal finance management.  
+It is built with React and focuses on practicing modern frontend development, working with state, and handling user data in the browser.
 
-Currently, two official plugins are available:
+At this stage, the main functionality is implemented. The app allows users to add income and expense transactions, organize them into categories, and see basic financial statistics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+- Add income and expense transactions
+- Categories for organizing transactions
+- Basic financial overview (totals)
+- Data persistence using localStorage
+- Client-side application (no backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- React Router DOM
+- JavaScript (ES6+)
+- localStorage for saving user data
+- CSS for styling
+
+## Next Steps
+
+- Edit and delete transactions
+- Filtering by category and date
+- Monthly statistics and charts
+- Data export/import
+- Improved UI and responsiveness
+
+## How to Start
+
+Open the app in your browser:
+
+https://darogible.github.io/money-tracker/
+
+## Run Locally
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/Darogible/money-tracker.git
+cd money-tracker
+npm install
+npm run dev
+
